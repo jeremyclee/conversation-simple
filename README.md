@@ -30,7 +30,7 @@ Use GitHub to clone the repository locally, or [download the .zip file](https://
 
 1. Connect to Bluemix with the Cloud Foundry command-line tool. For more information, see the Watson Developer Cloud [documentation][cf_docs].
     ```bash
-    cf login
+    cf login -a https://api.ng.bluemix.net
     ```
 
 1. Create an instance of the Conversation service in Bluemix. For example:
