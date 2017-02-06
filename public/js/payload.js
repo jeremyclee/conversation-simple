@@ -55,6 +55,7 @@ var PayloadPanel = (function() {
     var currentResponsePayloadSetter = Api.setResponsePayload;
     Api.setResponsePayload = function(newPayload) {
       currentResponsePayloadSetter.call(Api, newPayload);
+      console.log(newPayload);
       displayPayload(settings.payloadTypes.response);
     };
   }
